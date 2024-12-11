@@ -9,16 +9,23 @@
 }
 .aside{
     background-color: var(--aside) ;
-    height: 80vh;
-    width: 20vw;
+    height: 90vh;
+    width: 10vw;
 }
 .main{
     background-color: var(--main);
-    height: 80vh;
+    height: 90vh;
     width: 80vw;
 }
 .footer{
     background-color: var(--footer);
-    height: 20vh;
-    width: 80vw;
+    height: 10vh;
+    width: 100vw;
+}
+
+/* inside aside */
+
+.aside{
+    flex-direction: column;
+    justify-content: space-between;
 }
