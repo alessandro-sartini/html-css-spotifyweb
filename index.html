@@ -6,7 +6,7 @@
     
     <title>Spotify</title>
     <!-- debug css -->
-    <link rel="stylesheet" href="./css/debug.css">
+    <!-- <link rel="stylesheet" href="./css/debug.css"> -->
     <!-- reset css -->
     <link rel="stylesheet" href="./css/reset.css">
     <!-- style css -->
@@ -27,18 +27,21 @@
                     <img src="./img/logo-small.svg" alt="logo">
                  </figure>
                  <div class="container-logo none">
-                     <figure class="none logo">
+                     <figure class="logo">
                          <img src="./img/logo.svg" alt="logo">
                      </figure>
                  </div> 
                 <div class="btn-aside ">
                   
-    
+                    
                     <figure class="flex">
+
+                        <!-- <div class="green-bar none"></div> -->
                         <img src="./img/home.svg" alt="home">
                         <span class="none label">Home</span>
     
                     </figure>
+
                     <figure class="flex">
                         <img src="./img/search.svg" alt="search">
                         <span class="none label">Home</span>
@@ -48,22 +51,51 @@
                         <img src="./img/libreria.svg" alt="library">
                         <span class="none label">Home</span>
                     </figure>
-               
+                    <div class="none">
+                        <h3>Playlist</h3>
+                        <div class="btn-playlist flex">
+                            <div class="square">+</div>
+                            <span>Crea Playlist</span>                        
+                        </div>
+                        <ul class="playlist-aside">
+                            <li>Nuova playlist</li>
+                            <li>Nuova playlist</li>
+                            <li>Nuova playlist</li>
+                            <li>Nuova playlist</li>
+                            <li>Nuova playlist</li>
+                            <li>Nuova playlist</li>
+                            <li>Nuova playlist</li>
+                        </ul>
+                    </div>
                </div>
             </div>
 
            <div class="bottom-aside ">
 
-                <figure class="flex">
-                    <img src="./img/download.svg" alt="logo">
-                    <span class="none label">Home</span>
+                <figure class="flex download">
+                    <img class="" src="./img/download.svg" alt="logo">
+                    <span class="none label">Installa app</span>
 
                 </figure>
-                <figure class="flex">
-                    <img src="./img/profile.svg" alt="home">
-                    <span class="none label">Home</span>
 
-                 </figure>
+
+                <div class="bar none"></div>
+
+
+                <a class="account">
+                   
+                    <figure class="flex " href="#">
+                        <div class="btn-account">
+    
+                            <div class="circle">
+                                
+                            </div>
+    
+                        </div>
+                        <h4 class="none label">John Doe</h4>
+                    </figure>
+
+                </a>
 
            </div>
         </section>

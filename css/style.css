@@ -3,6 +3,8 @@
     --main: #141922;
     --aside:#000000;
     --footer:#282828;
+    --grey:#A3A3A3;
+    --green:#9FEB2B;
 }
 figure {
     margin: 0; 
@@ -48,4 +50,12 @@ figure {
 .bottom-aside > figure > img,
 .btn-aside > figure >img{
     max-width: 100%;
+}
+.circle{
+        background-color: var(--grey);
+        text-align: center;
+        width: 17px; 
+        height: 17px;
+        border-radius: 50px;
+        background-image: url(../img/profile.svg);
 }
