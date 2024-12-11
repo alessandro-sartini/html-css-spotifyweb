@@ -4,6 +4,10 @@
     --aside:#000000;
     --footer:#282828;
 }
+figure {
+    margin: 0; 
+    padding: 0;
+}
 .flex{
     display: flex;
 }
@@ -28,4 +32,19 @@
 .aside{
     flex-direction: column;
     justify-content: space-between;
+}
+
+.bottom-aside > figure,
+.top-aside > figure {
+    margin: 0 auto;
+    height: 30px;
+    width: 20px;
+    align-items: center;
+
+}
+
+.bottom-aside > figure > img,
+.top-aside > figure >img{
+
+max-width: 100%;
 }
