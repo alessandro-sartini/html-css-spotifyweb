@@ -1,0 +1,36 @@
+@media screen and (min-width: 470px) {
+    .aside{
+        width: 40vw;
+    }
+    
+    span.none{
+        display: inline-block;
+        color: white;
+    }
+
+    .aside{
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    
+    .bottom-aside > figure,
+    .top-aside > figure {
+        height: 30px;
+        width: 20px;
+        margin: 10px;
+    }
+    figure.flex{
+        gap: 10px;
+
+    }
+    .logo-small{
+        display: none;
+    }
+    div.none{
+        display: inline-block;
+        flex-basis: 10%;
+    }
+    .logo{
+        width: 100%;
+    }
+}

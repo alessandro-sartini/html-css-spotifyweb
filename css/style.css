@@ -34,17 +34,18 @@ figure {
     justify-content: space-between;
 }
 
+.logo-small,
 .bottom-aside > figure,
-.top-aside > figure {
+.btn-aside > figure {
     margin: 0 auto;
     height: 30px;
     width: 20px;
     align-items: center;
+    margin-top: 5px;
 
 }
-
+.logo-small,
 .bottom-aside > figure > img,
-.top-aside > figure >img{
-
-max-width: 100%;
+.btn-aside > figure >img{
+    max-width: 100%;
 }
