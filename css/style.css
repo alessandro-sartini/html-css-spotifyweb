@@ -1,0 +1,24 @@
+/* STYLE */
+:root{
+    --main: #141922;
+    --aside:#000000;
+    --footer:#282828;
+}
+.flex{
+    display: flex;
+}
+.aside{
+    background-color: var(--aside) ;
+    height: 80vh;
+    width: 20vw;
+}
+.main{
+    background-color: var(--main);
+    height: 80vh;
+    width: 80vw;
+}
+.footer{
+    background-color: var(--footer);
+    height: 20vh;
+    width: 80vw;
+}
