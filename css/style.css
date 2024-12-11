@@ -5,6 +5,7 @@
     --footer:#282828;
     --grey:#A3A3A3;
     --green:#9FEB2B;
+    --header:#080B12;
 }
 figure {
     margin: 0; 
@@ -52,10 +53,33 @@ figure {
     max-width: 100%;
 }
 .circle{
-        background-color: var(--grey);
-        text-align: center;
-        width: 17px; 
-        height: 17px;
-        border-radius: 50px;
-        background-image: url(../img/profile.svg);
+    margin: 0 auto;
+    background-color: var(--grey);
+    text-align: center;
+    width: 17px; 
+    height: 17px;
+    border-radius: 50px;
+    background-image: url(../img/profile.svg);
+}
+
+/* main */
+.main{
+/* overflow: scroll; */
+}
+.container-btn-update{
+    min-height: 100px;
+    min-width: 100%;
+    background-color: var(--header);
+}
+.button{
+    background-color: none#ddd;
+    border: 1px solid white;
+    color: white;
+    padding: 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
 }
