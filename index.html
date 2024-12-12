@@ -5,18 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Spotify</title>
-    <!-- debug css -->
+  <!-- debug css -->
     <!-- <link rel="stylesheet" href="./css/debug.css"> -->
     <!-- reset css -->
     <link rel="stylesheet" href="./css/reset.css">
     <!-- style css -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- responsive S-->
+    <link rel="stylesheet" href="./css/media-mobile-first-s.css">
+    <!-- responsive M-->
+    <link rel="stylesheet" href="./css/media-mobile-first-m.css">
+    <!-- responsive L -->
+    <link rel="stylesheet" href="./css/media-mobile-first-l.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
-    <main class="flex">
+
+    <div class="layout-top">
+        <div class="layout_sideBar">
+            <div class="layout_sideBar--top">
+                <!-- sideBar logos -->
+                <div class="layout_sideBar--logos">
+                    <a href="#">
+
+                        <img width="25px" src="./img/logo-small.svg" 
+                        alt="logo small">
+                        <img width="100px" src="./img/logo.svg" 
+                        alt="logo big">
+                    </a>
+                </div>
+
+                <!-- sideBar menus -->
+                <div class="layout_sidebar--menus">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid
+                                 fa-house"></i>
+                                 <span>home</span> 
+
+                        </a></li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid
+                                 fa-magnifying-glass"></i>
+                                 <span>cerca</span> 
+
+                        </a></li>
+                        <li>
+                            
+                            <a href="#">
+                                <i class="fa-solid
+                                 fa-bars-staggered"></i>
+                                <span>la tua libreria</span> 
+                        </a></li>
+                    </ul>
+                </div>
+
+                <!-- playlist -->
+                <div class="layout_sidebar--playlist">
+                    <h4>PLaylist</h4>
+                    <div class="layout_sidebar--playlist--btn">
+                            <a href="">
+                                <div class="square-icon">
+
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                                <span>crea playlist</span>
+                                
+                            </a>
+                            <ul>
+                                <li>crea la tua playlist</li>
+                                <li>crea la tua playlist</li>
+                                <li>crea la tua playlist</li>
+                                <li>crea la tua playlist</li>
+                                <li>crea la tua playlist</li>
+                            </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="layout_sideBar--bottom">
+                <a href="#">
+                    <img width="15px" src="./img/download.svg" alt="download icon">
+                    <span>installa app</span>
+                </a>
+                <hr>
+                <a href="#">
+                    <img width="25px" src="./img/profile.svg" alt="profile icon">
+                    <span>Alex Joun</span>
+
+                </a>
+            </div>
+        </div>
+        <div class="layout_main">
+            
+            <div class="layout_cta">
+                <a href="#" 
+                class="btn btn--pill">  
+                effettua l'upgrade
+                </a>
+              
+    
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam repudiandae numquam laudantium quasi facilis molestiae voluptatum voluptatibus obcaecati nisi voluptate. Nesciunt eaque dolores velit exercitationem sint praesentium facere inventore qui.
+                Perferendis doloremque consequuntur nesciunt soluta corrupti voluptas aliquam sequi! Pariatur magni eos, ad voluptates nobis commodi at autem quos. Pariatur voluptates laborum earum dignissimos velit magni ipsam minima, aliquam molestiae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, quas excepturi fugit esse quam amet ex aperiam harum itaque, iusto, perferendis ad expedita eligendi laborum odio ipsum eum unde! Tempore.
+                Excepturi iure nulla, aspernatur, architecto dolorum voluptatum doloribus dolores harum suscipit, commodi recusandae atque a optio dignissimos obcaecati nobis quisquam minima nemo explicabo. Obcaecati, incidunt porro? Consectetur dolor iure ducimus.
+                Temporibus, ipsam neque at ex voluptatum quis voluptates qui mollitia earum sapiente soluta culpa adipisci non quasi. Nostrum quas, sint vel sapiente ullam odit incidunt laudantium, expedita delectus molestiae asperiores?
+                Debitis laboriosam voluptates labore pariatur, quaerat consequatur voluptatum quasi blanditiis consectetur voluptatem suscipit assumenda corrupti necessitatibus, vel qui non deserunt doloribus, culpa nulla modi neque ducimus. Distinctio fugiat id architecto!
+            </div>
+
+        </div>
+
+    </div>
+    <div class="layout-bottom">
+
+
+    </div>
+
+
+
+    <!-- <main class="flex">
 
         <section class="aside flex">
 
@@ -36,7 +148,6 @@
                     
                     <figure class="flex">
 
-                        <!-- <div class="green-bar none"></div> -->
                         <img src="./img/home.svg" alt="home">
                         <span class="none label">Home</span>
     
@@ -123,6 +234,6 @@
     
         </div>
 
-    </footer>
+    </footer> -->
 </body>
 </html>
