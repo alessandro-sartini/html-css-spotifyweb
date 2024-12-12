@@ -2,4 +2,7 @@
     .layout_cta{
         font-size: 1rem;
     }
+    .card{
+        max-width: calc(16% - 20px);    /* flex-basis: calc(100% / 2); */
+    }
 }

@@ -5,5 +5,9 @@
     .layout_sideBar{
         min-width: 250px;
     }
+    .card{
+        justify-content: flex-start;
+        max-width: calc(25% - 20px);    /* flex-basis: calc(100% / 2); */
+    }
 
 }

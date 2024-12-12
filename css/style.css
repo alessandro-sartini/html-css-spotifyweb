@@ -1,4 +1,7 @@
 /* STYLE */
+*{
+    font-family: Montserrat;
+}
 :root{
     --main: #141922;
     --aside:#000000;
@@ -45,11 +48,10 @@ body{
 .layout_main{
     overflow-y: auto;
     flex-basis: 90%;
-    border: 3px solid red;
 
 }
+/* CTA */
 .layout_cta{
-    border: 3px solid lightgreen;
     padding: 20px;
     text-align: right;
     text-transform: uppercase;
@@ -119,5 +121,43 @@ body{
 .layout_sideBar--bottom a img[alt="profile icon"]{
     border-radius: 50%;
     background-color: var(--grey);
+}
+
+/* MAIN */
+
+.category--tag{
+  
+    text-transform: uppercase;
+    color: #767780;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 15px;
+
+}
+.category li{
+    border-bottom: 1px solid var(--green);
+}
+.category--music--container{
+    margin: 20px;
+    border: 3px solid green;
+}
+.card--container{
+    flex-basis: 300px;
+    margin-top: 30px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    flex-shrink: 1;
+    max-width: calc(45% - 20px);    /* flex-basis: calc(100% / 2); */
+    text-align: center;
+}
+.img--container img{
+    margin-bottom: 10px;
+    width: 100%;
 }
 
