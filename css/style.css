@@ -173,3 +173,13 @@ body{
     min-width: 150px;
     border-radius: 50%;
 }
+
+/* foooter */
+.layout-bottom{
+    display: flex ;
+    justify-content: space-between;
+}
+.left--footbar{
+    display: flex;
+    margin: 40px 20px ;
+}
