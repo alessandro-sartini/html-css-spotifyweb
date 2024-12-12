@@ -70,16 +70,21 @@ figure {
     min-height: 100px;
     min-width: 100%;
     background-color: var(--header);
+    justify-content: flex-end;
 }
-.button{
-    background-color: none#ddd;
+.button {
+    background-color: none; 
     border: 1px solid white;
-    color: white;
-    padding: 20px 15px;
+    padding: 15px 20px; 
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 20px;
+    border-radius: 50px; 
+
+}
+.button a {
+    color: white; 
+    text-decoration: none;
+    font-size: 16px; 
+    display: block;
+    text-align: center;
 }
