@@ -70,6 +70,10 @@
     }
 /* cardmain */
 
-
+    .card{
+        min-width: 100px;
+        justify-content: flex-start;
+        max-width: calc(45% - 10px);   
+    }
 
 }

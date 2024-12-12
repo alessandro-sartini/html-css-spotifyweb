@@ -31,8 +31,7 @@ body{
 }
 .layout-bottom{
     border: 3px solid lightcoral;
-
-
+    background-color: var(--footer);
     height: 10vh;
 }
 .layout_sideBar{
@@ -139,25 +138,38 @@ body{
 .category li{
     border-bottom: 1px solid var(--green);
 }
-.category--music--container{
+.container{
+    display: flex;
     margin: 20px;
     border: 3px solid green;
 }
 .card--container{
-    flex-basis: 300px;
-    margin-top: 30px;
     gap: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-content: center;
+    justify-content: flex-start;
 }
 .card{
+    min-width: 150px;
     flex-shrink: 1;
-    max-width: calc(45% - 20px);    /* flex-basis: calc(100% / 2); */
+    max-width: calc(45% - 10px);    flex-basis: calc(100% / 2);
     text-align: center;
 }
 .img--container img{
     margin-bottom: 10px;
     width: 100%;
 }
+.title-category,
+.title-span{
+    margin-left: 30px;
+}
+/* 2 category */
+.popular{
+   margin-inline: 20px;
+}
+.circle>img{
 
+    min-width: 150px;
+    border-radius: 50%;
+}
