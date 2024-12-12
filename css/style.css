@@ -151,7 +151,7 @@ body{
     justify-content: flex-start;
 }
 .card{
-    min-width: 150px;
+    min-width: 100px;
     flex-shrink: 1;
     max-width: calc(45% - 10px);    flex-basis: calc(100% / 2);
     text-align: center;
