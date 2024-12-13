@@ -11,13 +11,16 @@
     <link rel="stylesheet" href="./css/reset.css">
     <!-- style css -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- bonus-effect -->
+    <link rel="stylesheet" href="./css/effect.css">
+    
     <!-- responsive S-->
     <link rel="stylesheet" href="./css/media-mobile-first-s.css">
     <!-- responsive M-->
     <link rel="stylesheet" href="./css/media-mobile-first-m.css">
     <!-- responsive L -->
     <link rel="stylesheet" href="./css/media-mobile-first-l.css">
-
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
@@ -67,7 +70,8 @@
                 <!-- playlist -->
                 <div class="layout_sidebar--playlist">
                     <h4>PLaylist</h4>
-                    <div class="layout_sidebar--playlist--btn">
+                    <div 
+                    class="layout_sidebar--playlist--btn">
                             <a href="">
                                 <div class="square-icon">
 
@@ -76,7 +80,7 @@
                                 <span>crea playlist</span>
                                 
                             </a>
-                            <ul>
+                            <ul class="playlist__list">
                                 <li>crea la tua playlist</li>
                                 <li>crea la tua playlist</li>
                                 <li>crea la tua playlist</li>
@@ -101,13 +105,16 @@
             </div>
         </div>
         <div class="layout_main">
-            
-            <div class="layout_cta">
-                <a href="#" 
-                class="btn btn--pill">  
-                effettua l'upgrade
-                </a>
-                
+            <div class="gap">
+
+                <div class="layout_cta">
+                    <a href="#" 
+                    class="btn btn--pill">  
+                    effettua l'upgrade
+                    </a>
+                    
+                </div>
+
             </div>
            
             <ul class="category--tag">
@@ -124,7 +131,7 @@
             <div class="category--music container">
                 
                 <div class="card--container">
-                    <div class="card">
+                    <div class="card ">
                         <figure class="img--container">
 
                             <img src="./img/metal_lifting.jpg" alt="">
@@ -132,15 +139,16 @@
                         <h4>heavy metal</h4>
                         <span>subtitle</span>
                     </div>
-                    <div class="card">
+                    <div class="card ">
                         <figure class="img--container">
 
+                            <i class="play__overlay fa-regular fa-circle-play"></i>
                             <img src="./img/stranger.jpeg" alt="">
                         </figure>
                         <h4>heavy metal</h4>
                         <span>subtitle</span>
                     </div>
-                    <div class="card">
+                    <div class="card ">
                         <figure class="img--container">
 
                             <img src="./img/aquietplace.jpeg" alt="">
@@ -148,7 +156,7 @@
                         <h4>heavy metal</h4>
                         <span>subtitle</span>
                     </div>
-                    <div class="card">
+                    <div class="card ">
                         <figure class="img--container">
 
                             <img src="./img/split.jpeg" alt="">
@@ -156,7 +164,7 @@
                         <h4>heavy metal</h4>
                         <span>subtitle</span>
                     </div>
-                    <div class="card">
+                    <div class="card ">
                         <figure class="img--container">
 
                             <img src="./img/cure.jpeg" alt="">
@@ -164,7 +172,7 @@
                         <h4>heavy metal</h4>
                         <span>subtitle</span>
                     </div>
-                    <div class="card">
+                    <div class="card ">
                         <figure class="img--container">
 
                             <img src="./img/sinister.jpeg" alt="">
@@ -296,7 +304,7 @@
                         <i class="fa-solid fa-play"></i> 
                     </a> 
                  </figure>
-                 
+                 <figure>
                     <a href="">
                         <i class="fa-solid fa-angles-right"></i>                     </a>
                     </a>

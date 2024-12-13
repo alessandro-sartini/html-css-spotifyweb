@@ -2,8 +2,9 @@
     .layout_cta{
         font-size: 1rem;
     }
+ 
     .card{
-        max-width: calc(16% - 20px);    /* flex-basis: calc(100% / 2); */
+        max-width: 200px
     }
    /* left footer */
    
@@ -15,9 +16,8 @@
     /* rigth footer */
 
     .left{
-        max-width: 80%;
+        max-width: 40%;
         max-height: 70%;
-        /* flex-grow: 1; */
         display: flex;
     }
     .circle__bar{
