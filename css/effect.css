@@ -4,18 +4,14 @@
     border-radius: 30px;
 
 }
-.category--tag>li:hover{
+.category--tag>li> a:hover{
     color: aliceblue;
 }
 .img--container img:hover{
     opacity: 0.5;
 }
-.play__overlay{
-    position: absolute;
-    /* min-height: 70%; */
-    top: 50%;
-    left: 50%;
-    z-index: 2;
+.fa-regular{
+   display: inline-block ;
 }
 /* sidebar */
 .layout_sidebar--menus
@@ -28,10 +24,17 @@
 >ul
 >li:hover,
 
+.category--tag:hover,
+
 .layout_sideBar--bottom
+>a
+>span:hover,
+.layout_sidebar--playlist >
+.layout_sidebar--playlist--btn
 >a
 >span:hover
 { 
+    font-size: 1.2rem;
    color: aliceblue;
 }
 .layout_sidebar--playlist >
@@ -52,15 +55,7 @@
 
 }
 .half__bar:hover{
-    
-    border-radius: 25px;
-    align-items: center;
-    justify-content: flex-end;
-    height: 10px;
+
     display: flex;
-    position: absolute;
-    width: 60%;
-    background-color: var(--green);
- 
 }
 

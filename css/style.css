@@ -132,7 +132,7 @@ body{
     margin: 15px;
 
 }
-.category li{
+.category li {
     border-bottom: 1px solid var(--green);
 }
 .container{
@@ -151,15 +151,26 @@ body{
     flex-basis: calc(100% / 2 - 20px);
     text-align: center;
 }
+.img--container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 .img--container img{
     position: relative;
     max-width: 200px;
     margin-bottom: 10px;
     width: 100%;
 }
+.fa-regular{
+    display: none;
+    position: absolute;
+    font-size: 60px; 
+}
 .title-category,
 .title-span{
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-block: 30px;
 }
 /* 2 category */
 .popular{
@@ -251,7 +262,7 @@ width: 25px;
     background-color: var(--grey);
 }
 .half__bar{
-    display: flex;
+    display: none;
     border-radius: 25px;
     align-items: center;
     justify-content: flex-end;
