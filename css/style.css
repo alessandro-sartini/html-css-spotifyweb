@@ -78,7 +78,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-block: 10px;
 }
 .layout_sideBar--logos img[alt$="big"]{
     display: none;
@@ -89,7 +89,7 @@ body{
 .layout_sidebar--menus ul{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 }
 .layout_sidebar--menus ul li a{
@@ -148,9 +148,7 @@ body{
     justify-content: flex-start;
 }
 .card{
-    /* min-width: 100px; */
-    /* flex-shrink: 1; */
-    max-width: calc(45% - 10px);    flex-basis: calc(100% / 2);
+    flex-basis: calc(100% / 2 - 20px);
     text-align: center;
 }
 .img--container img{
@@ -167,7 +165,7 @@ body{
 }
 .circle>img{
 
-    min-width: 150px;
+    /* min-width: 150px; */
     border-radius: 50%;
 }
 
@@ -185,13 +183,17 @@ body{
     flex-basis: calc(100% / 3 );
 }
 
-.left--footbar{
-   
+
+.widjet--left--footer{
     justify-content: start;
     align-items: center;
     display: flex;
     height: 100%;
     gap: 10px;
+}
+.left--footbar{
+    padding-block: 30px ;
+    padding-left: 1px;
 }
 
 
@@ -225,11 +227,13 @@ body{
    
 }
 .bar{
+    /* min-width: 200px; 
+    max-width: 600px;  */
     align-items: center;
     display: flex;
     position: relative;
     border-radius: 20px;
-    height: 20px;
+    height: 10px;
     width: 100%;
     background-color: var(--grey);
 }
@@ -237,9 +241,8 @@ body{
     border-radius: 25px;
     align-items: center;
     justify-content: flex-end;
-    height: 15px;
+    height: 10px;
     display: flex;
-    z-index: 1;
     position: absolute;
     width: 60%;
     background-color: var(--green);
@@ -247,21 +250,20 @@ body{
 }
 
 .circle__bar{
+    /* min-height: 20px;
+    max-height: 40px; */
     position: absolute;
     aspect-ratio: 1;
-    height: 30px;
+    height: 20px;
     border-radius: 50%;
     background-color: whitesmoke;
-
 }
 
-
-
-.right--footbar input[type="range"] {
-    width: 100%; 
-    height: 5px; 
-    max-width: 1500px;
+.left{
+    display: none;
+   
 }
+
 
 
 
@@ -271,7 +273,7 @@ body{
 
 .right--footbar{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
     align-items: center;
 }

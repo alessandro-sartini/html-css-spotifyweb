@@ -76,4 +76,16 @@
         max-width: calc(45% - 10px);   
     }
 
+    /* footer */
+    .left{
+        max-height: 70%;
+
+        max-width: 25%;
+        /* flex-grow: 1; */
+        display: flex;
+    }
+    .circle__bar{
+        height: 20px;
+    }
+
 }
