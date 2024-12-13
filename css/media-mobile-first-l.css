@@ -5,6 +5,15 @@
     .card{
         max-width: calc(16% - 20px);    /* flex-basis: calc(100% / 2); */
     }
+   /* left footer */
+   
+    .widjet--left--footer>img{
+     width: 50px;
+    }
+
+
+    /* rigth footer */
+
     .left{
         max-width: 80%;
         max-height: 70%;

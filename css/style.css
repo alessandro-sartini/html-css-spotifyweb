@@ -25,22 +25,15 @@ body{
 .layout-top{
     height: 90vh;
     display: flex;
-
-
-    border: 3px solid lightblue;
 }
 .layout-bottom{
-    border: 3px solid lightcoral;
     background-color: var(--footer);
     height: 10vh;
 }
 .layout_sideBar{
     background-color: var(--aside);
-
-    /* flex-basis: 10%; */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     padding: 10px 0;
 }
 
@@ -138,7 +131,6 @@ body{
 .container{
     display: flex;
     margin: 20px;
-    border: 3px solid green;
 }
 .card--container{
     gap: 20px;
@@ -163,26 +155,34 @@ body{
 .popular{
    margin-inline: 20px;
 }
-.circle>img{
 
-    /* min-width: 150px; */
+
+/* circle playList */
+.category--music__circle {
+    display: flex;
+}
+
+.circle>img{
     border-radius: 50%;
 }
 
 /* foooter */
 /* img riproduzione */
 .layout-bottom{
-
     padding-inline: 10px;
     display: flex ;
     justify-content: space-between;
 }
+
+
+
 .left--footbar,
 .center--footbar,
 .right--footbar{
     flex-basis: calc(100% / 3 );
 }
 
+/* left */
 
 .widjet--left--footer{
     justify-content: start;
@@ -195,7 +195,12 @@ body{
     padding-block: 30px ;
     padding-left: 1px;
 }
-
+.text__music{
+    font-size: 10px;
+}
+.widjet--left--footer>img{
+width: 25px;
+}
 
 /* center */
 
@@ -227,8 +232,6 @@ body{
    
 }
 .bar{
-    /* min-width: 200px; 
-    max-width: 600px;  */
     align-items: center;
     display: flex;
     position: relative;
@@ -250,8 +253,6 @@ body{
 }
 
 .circle__bar{
-    /* min-height: 20px;
-    max-height: 40px; */
     position: absolute;
     aspect-ratio: 1;
     height: 20px;
@@ -261,16 +262,7 @@ body{
 
 .left{
     display: none;
-   
 }
-
-
-
-
-
-
-
-
 .right--footbar{
     display: flex;
     gap: 15px;

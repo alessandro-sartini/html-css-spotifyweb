@@ -77,6 +77,22 @@
     }
 
     /* footer */
+    /* left footer */
+    .text__music{
+        font-size: 15px;
+    }
+    .text__title{
+        font-size: 25px;
+
+    }
+    .widjet--left--footer>img{
+    width: 35px;
+    }
+
+
+
+
+    /* rigth footer */
     .left{
         max-height: 70%;
 

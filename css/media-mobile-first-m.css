@@ -9,6 +9,20 @@
         justify-content: flex-start;
         max-width: calc(25% - 20px);   
     }
+
+   /* left footer */
+   .text__music{
+        font-size: 20px;
+    }
+    .text__title{
+        font-size: 35px;
+
+    }
+    .widjet--left--footer>img{
+     width: 45px;
+    }
+
+    /* right footer */
     .left{
         max-width: 40%;
         /* flex-grow: 1; */
@@ -17,5 +31,6 @@
     .circle__bar{
         height: 20px;
     }
+
 
 }
