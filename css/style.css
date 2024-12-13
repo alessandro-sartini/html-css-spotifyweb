@@ -292,3 +292,11 @@ width: 25px;
     justify-content: center;
     align-items: center;
 }
+.category--tag li a .bordino{
+    display: none;
+    width: 40%;
+    margin: 0 auto;
+    background-color: var(--green);
+    height: 2px;
+    margin-top: 0.2rem;
+}

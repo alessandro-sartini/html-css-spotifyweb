@@ -24,7 +24,7 @@
 >ul
 >li:hover,
 
-.category--tag:hover,
+.category--tag>li:hover,
 
 .layout_sideBar--bottom
 >a
@@ -54,8 +54,10 @@
     transform:scale(1.4) ;
 
 }
-.half__bar:hover{
+.bar:hover>.half__bar{
 
     display: flex;
 }
-
+.category--tag li a:hover .bordino{
+       display: block;
+}
